@@ -1,5 +1,5 @@
 # MAGD150
-## Readme File##
+## Readme File
 
 Enclosed in this repository are examples of code for MAGD 150 at UW-W. 
 
