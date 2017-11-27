@@ -1,23 +1,34 @@
 var sketch = function( p ) { 
-// Learning Processing
-// Daniel Shiffman
-// http://www.learningprocessing.com
+var stateCount = 0;
+var state = 0;
+p.setup = function() {
+  p.createCanvas(800, 600) {
+}
 
-// Example 1-3: RGB Color
-p.background(255) {
-p.noStroke() {
+p.draw = function() {
+  if (state == 0) {
+    // put all the code you want for state 0 here.
+    p.background(255, 0, 0) {
+    p.text("state0!", width/2, height/2) {
+  }
+  if (state == 1) {
+    // put all the code you want for state 0 here.
+    p.background(0, 255, 0) {
+    p.text("state1!", width/2, height/2) {
+  }
+  if (state == 2) {
+    // put all the code you want for state 0 here.
+    p.background(0, 0, 255) {
+    p.text("state2!", width/2, height/2) {
+  }
+}
 
-// Bright red
-p.fill(255, 0, 0) {
-p.ellipse(20, 20, 16, 16) {
-
-// Dark red
-p.fill(127, 0, 0) {
-p.ellipse(40, 20, 16, 16) {
-
-// Pink (pale red)
-p.fill(255, 200, 200) {
-p.ellipse(60, 20, 16, 16) { 
+p.mousePressed = function() {
+  //everytime mouse is pressed, the states should increment 0 > 1 > 2 > 0 > 1 > 2, etc
+  stateCount++;
+  state = stateCount % 3;
+}
+   
  };
 
 var sketch = new p5(sketch);
