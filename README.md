@@ -4,7 +4,8 @@
 Enclosed in this repository are examples of code for MAGD 150 at UW-W. 
 
 
-##Example 1:
+## Example 1
+
 [Mirror Example](https://github.com/vichotr/MAGD150/blob/master/Mirror/Mirror.pde)
 
 [Mirror Executable for Windows (64-bit)](https://github.com/vichotr/MAGD150/blob/gh-pages/Mirror/Mirror.exe)
