@@ -4,38 +4,8 @@
   <script type="text/javascript" src="processing.min.js"></script>
   </header>
   <h1>Your FINAL SKETCH Title</h1>
-  <script type="text/processing" data-processing-target="mycanvas-final">
-  // Learning Processing
-// Daniel Shiffman
-// http://www.learningprocessing.com
-
-// Example 14-1: A growing rectangle, or a rectangle moving toward you?
-
-float r = 8;
-
-void setup() {
-  size(200, 200);
-}
-
-void draw() {
-  background(255);
-
-  // Display a rectangle in the middle of the screen
-  stroke(0);
-  fill(175);
-  rectMode(CENTER);
-  rect(width/2, height/2, r, r);
-
-  // Increase the rectangle size
-  r++ ;
-
-  // Start rectangle over
-  if (r > width) {
-    r = 0;
-  }
-}
-  
-  </script>
+ <script src="processing.min.js"></script>
+<canvas data-processing-sources="example_14_14_rotate_rect1_rect2.pde"></canvas>
 
 
 </body>
