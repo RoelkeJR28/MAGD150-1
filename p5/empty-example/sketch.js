@@ -1,4 +1,4 @@
-ar flock;
+var flock;
 
 function setup() {
   createCanvas(640,360);
