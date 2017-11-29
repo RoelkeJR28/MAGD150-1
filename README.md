@@ -10,4 +10,4 @@ Enclosed in this repository are examples of code for MAGD 150 at UW-W.
 
 [Mirror Executable for Windows (64-bit)](https://github.com/vichotr/MAGD150/blob/gh-pages/Mirror/Mirror.exe)
 
-Some examples are from **Learning Processing** By Daniel Schiffman. Others are by Nick Hwang, Jeremy Behreandt, and Rhea Vichot. 
+Some examples are from *Learning Processing* By Daniel Schiffman. Others are by Nick Hwang, Jeremy Behreandt, and Rhea Vichot. 
